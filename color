@@ -1,0 +1,5 @@
+#!/bin/bash
+echo "What is your favorite color?"
+read color
+echo "${color} is a nice color"
+
