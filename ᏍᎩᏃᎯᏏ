@@ -1,6 +1,11 @@
 #!/bin/bash
 
-# Syllabary transliterated into sounds
+# Syllabary transliterated into sounds based on user input
+# An array would be more elegant coding but I didn't have enough patience to figure it out
+# I need to account for blank space (finding the say command for a pause)
+# the following phonemes don't sound right in the Espeak program I tested with on my Ubuntu box and I assume they won't sound right
+# with the Say program on the students' Macbooks either: s, tla, tle, tli, tlo, tlu, tlv
+# the Espeak program (and probably Say) pronounce s as "ess" instead of "ssss" and can't handle the tl combination
 
 #while do loop parses $char one character at a time
 
